@@ -1,0 +1,76 @@
+body {
+    background-color: #ffeef2;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(255, 77, 109, 0.2);
+    width: 350px;
+    height: 500px; /* Altura fija para que no se deforme */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-wrapper {
+    flex: 0 0 200px; /* Espacio reservado para Chiikawa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#chiikawa-img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yes-btn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#no-btn {
+    background-color: #adb5bd;
+    color: white;
+}
